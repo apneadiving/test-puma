@@ -1,0 +1,43 @@
+Started GET "/" for 127.0.0.1 at 2022-11-25 17:03:45 +0100
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/benjamin/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/benjamin/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.1.7/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.3ms | Allocations: 414)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3545)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-11-25 17:03:45 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-25 17:04:36 +0100
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | Allocations: 135)
+
+
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-25 17:05:23 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1965)
+
+
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-25 17:05:24 +0100
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 87)
+
+
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-25 17:05:24 +0100
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 83)
+
+
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-25 17:05:24 +0100
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 83)
+
+
+Started GET "/health_checks" for 127.0.0.1 at 2022-11-26 11:23:34 +0100
+Processing by ApplicationController#health_checks as HTML
+Completed 200 OK in 4ms (Views: 0.2ms | Allocations: 2382)
+
+
